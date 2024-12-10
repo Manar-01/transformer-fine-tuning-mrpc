@@ -23,6 +23,31 @@ This project fine-tunes a transformer model on the **Microsoft Research Paraphra
    ```bash
    pip install -r requirements.txt  
    ```
+## How to Run
+1. Open the notebook:
+``` bash
+jupyter notebook qa_rag_climate_fever.ipynb
+```
+or use google colab 
+
+2. Ensure the runtime is set to GPU or TPU for faster training.
+
+3. Follow the steps in the notebook to:
+   - Load and preprocess the MRPC dataset.
+   - Fine-tune the transformer model.
+   - Evaluate and analyze the model's performance
+
+## Dependencies
+- transformers  
+- datasets  
+ - tensorflow 
+- numpy  
+- pandas  
+
+Install them using the requirements.txt file.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 - The MRPC dataset is provided by Microsoft Research.
